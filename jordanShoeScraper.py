@@ -1,4 +1,4 @@
-mport snscrape.modules.twitter as sntwitter
+import snscrape.modules.twitter as sntwitter
 import requests
 
 maxTweetValue = 1000
