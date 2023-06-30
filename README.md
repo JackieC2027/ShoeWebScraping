@@ -1,6 +1,6 @@
 # Shoe Web Scraping
 
-The Jordan Shoe Scraper is a Python script that scrapes tweets from the Twitter account "SneakerShouts" to find tweets related to Jordan shoes. As an avid shoe collector, I wanted to automate the process of finding
+The Jordan Shoe Scraper is a Python script that scrapes tweets from the Twitter account "SneakerShouts" to find tweets related to Jordan shoes. As an avid shoe collector, I wanted to automate the process of finding new Jordan releases, as these tend to be “sniped” or electronically bought by bots on Twitter. Ensuring that the news in released on a daily basis, I can be one of the first users to access, view, and act on the tweets from this credible shoe news Twitter page.
 
 # Prerequisites
 <h3>Python 3.6 or higher</h3>
@@ -35,7 +35,13 @@ Save the changes.
 
 # How It Works
 
-Tweets from the Twitter account, "@SneakerShouts" are scraped to gather the freshest releases of Jordans. Using the scrape library and API endpoints, the tweets are scraped on a daily basis and sorted to find keywords that are related to Jordan shoes.
+Tweets from the Twitter account, "@SneakerShouts" are scraped to gather the freshest releases of Jordans.  
+
+Using the snscrape library and its API endpoints, the Tweets are stored in a list, following several string formation and looping of the tweets themselves. 
+
+Based on certain keywords that are related to Jordans, these specific tweets are organized into a JSON request from Textbelt’s API that works with SMS automation. 
+
+Every day @ 7:30 PM, (23:30 UTC) the script would be ran on a CronJob, in cohesion with PyInstaller, to send a message to my personal phone about new releases. 
 
 # Notes
 
