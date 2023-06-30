@@ -51,5 +51,5 @@ for eachTweet in jordanTweetList:
     resp = requests.post('https://textbelt.com/text', {
   'phone': '6097726637',
   'message': eachTweet,
-  'key': 'c09f74dc93d4b4f2963c7a81aa6e4369da6afd117pCYOS2jUsXP8heLj7DAmJq60',
+  'key': 'REDACTED',
 })
