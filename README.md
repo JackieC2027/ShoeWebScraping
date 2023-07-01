@@ -30,7 +30,8 @@ Save the changes.
 
 ```python jordanShoeScraper.py```
 
-# Preview
+<img src="https://github.com/JackieC2027/shoewebscraping/assets/110410844/61ef70aa-1b21-4713-a031-4a1211cfab18">
+
 
 # How It Works
 
