@@ -56,7 +56,7 @@ for eachCompletedTweet in tweetContentList:
 # Send each tweet in jordanTweetList as a text message using the Textbelt API
 for eachTweet in jordanTweetList:
     resp = requests.post('https://textbelt.com/text', {
-        'phone': '6097726637',   # Replace with desired phone number
+        'phone': 'REDACTED',   # Replace with desired phone number
         'message': eachTweet,
         'key': 'REDACTED',        # Replace with your Textbelt API key
     })
