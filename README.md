@@ -15,15 +15,6 @@ The Jordan Shoe Scraper is a Python script that scrapes tweets from the Twitter 
 
 ```pip install snscrape requests pyinstaller```
 
-# Usage
-Open the jordanShoeScraper.py file in a text editor.
-
-Modify the script's configuration according to your requirements:
-
-- maxTweetValue: The maximum number of tweets to scrape.
-- phone: Your phone number to receive SMS notifications.
-- key: Your API key from Textbelt for sending SMS notifications.
-
 Save the changes.
 
 <h3>Run the script by executing the following command in the terminal:</h3>
